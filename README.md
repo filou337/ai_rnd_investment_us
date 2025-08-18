@@ -27,6 +27,3 @@ This research uses a **mixed-methods approach**:
   - Case study (Pfizer).  
   - Expert survey among R&D and venture capital professionals.  
 
----
-
-## 📂 Repository Structure
