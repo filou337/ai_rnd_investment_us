@@ -1,68 +1,78 @@
-# ai_rnd_investment_us
-# 📊 Optimization of R&D Investment Decisions in the Era of AI – Case of the United States
+# ai_rnd_investment_us  
+# 📊 Optimisation des décisions d’investissement en R&D à l’ère de l’IA – Cas des États-Unis
 
-## 📌 Project Overview
-This repository contains the research, data, and code for my Master's thesis:  
-**"Optimization of R&D Investment Decisions in the Era of AI in the United States."**
+## 📌 Aperçu du projet
 
-The objective of this work is to analyze how Artificial Intelligence (AI) can optimize Research & Development (R&D) investment decisions from both **quantitative** and **qualitative** perspectives.
+Ce dépôt contient la **recherche, les données et le code** associés à mon mémoire de Master :  
+**« Optimisation des décisions d’investissement en R&D à l’ère de l’IA aux États-Unis »**.
 
----
-
-## 🎯 Objectives
-1. Quantify the impact of AI on the economic and technological performance of R&D projects.  
-2. Identify the sectors and types of firms that benefit the most from AI adoption.  
-3. Evaluate the level of concentration of AI-related patents in the United States.  
+L’objectif est d’analyser comment l’Intelligence Artificielle (IA) peut optimiser les décisions d’investissement en Recherche & Développement (R&D), sous un angle à la fois **quantitatif** et **qualitatif**.
 
 ---
 
-## 🛠️ Methodology
-This research uses a **mixed-methods approach**:
-- **Quantitative analysis:**  
-  - Descriptive statistics, econometric models (OLS, SARIMAX, Gradient Descent).  
-  - Concentration measures (HHI, Gini index, Lorenz curves).  
-  - Patent and venture capital data (2010–2024).  
+## 🎯 Objectifs
 
-- **Qualitative analysis:**  
-  - Case study (Pfizer).  
-  - Expert survey among R&D and venture capital professionals.
+1. **Quantifier l’impact de l’IA** sur la performance économique et technologique des projets de R&D.  
+2. **Identifier les secteurs et profils d’entreprises** qui tirent le plus de bénéfices de l’adoption de l’IA.  
+3. **Mesurer le niveau de concentration** des brevets liés à l’IA aux États-Unis (firmes, secteurs, géographie).  
 
 ---
 
-## 📊 Data Sources
-- **OECD** – Research & Development statistics  
-- **NCSES (NSF)** – U.S. R&D expenditure and researchers  
-- **USPTO / WIPO** – Patent data  
-- **World Bank** – Macroeconomic indicators  
-- **OECD.AI** – AI-related policy and innovation data  
+## 🛠️ Méthodologie
+
+Le travail repose sur une **approche mixte (quantitative + qualitative)** :
+
+### Analyse quantitative
+- Statistiques descriptives et **modèles économétriques** :  
+  - Régression linéaire (OLS), modèles de séries temporelles (**SARIMAX**), descente de gradient.  
+- Mesures de concentration :  
+  - **Indice de Herfindahl-Hirschman (HHI)**, **indice de Gini**, **courbes de Lorenz**.  
+- Données de brevets et de capital-risque (venture capital) sur la période **2010–2024**.
+
+### Analyse qualitative
+- **Étude de cas** (ex. Pfizer et industrie pharmaceutique).  
+- **Enquête exploratoire** auprès de professionnels de la R&D et du capital-risque (VC) pour compléter la lecture des résultats quantitatifs.
 
 ---
 
-## 📈 Key Results
-- AI adoption improves **resource allocation efficiency** in R&D.  
-- High concentration of AI patents among large U.S. firms (tech & pharma).  
-- Mixed impact across sectors: pharmaceutical and ICT lead adoption, while traditional industries lag.  
-- Econometric models confirm a **positive correlation** between AI-related R&D investment and long-term innovation performance.  
+## 📊 Sources de données
+
+- **OCDE** – Statistiques sur la R&D et l’innovation  
+- **NCSES (NSF)** – Dépenses de R&D et effectifs de chercheurs aux États-Unis  
+- **USPTO / OMPI (WIPO)** – Données de brevets  
+- **Banque mondiale** – Indicateurs macroéconomiques  
+- **OECD.AI** – Données sur les politiques et l’innovation liées à l’IA  
 
 ---
 
-## 🚀 Technologies Used
-- **Python:** pandas, numpy, statsmodels, scikit-learn, matplotlib, seaborn  
-- **R:** econometric modeling and data visualization  
-- **Excel:** data preprocessing and descriptive analysis  
+## 📈 Principaux résultats (aperçu)
+
+- L’adoption de l’IA améliore l’**efficacité d’allocation des ressources** en R&D (meilleur ciblage des projets).  
+- Forte **concentration des brevets IA** au sein de grandes entreprises américaines, notamment dans la tech et la pharma.  
+- Impact **hétérogène selon les secteurs** :  
+  - Les secteurs pharmaceutique et TIC sont en tête,  
+  - Les industries plus traditionnelles restent en retrait.  
+- Les modèles économétriques confirment une **corrélation positive** entre les investissements en R&D liés à l’IA et la performance d’innovation à long terme (brevets, indicateurs d’intensité technologique, etc.).
 
 ---
 
-## 📚 Citation
-If you use this work, please cite as:  
+## 🚀 Technologies utilisées
 
-> Roumbo, P. & Elabasy, A. (2025). *Optimization of R&D Investment Decisions in the Era of AI in the United States.* Master’s Thesis, Université Sorbonne Paris Nord.  
+- **Python** : `pandas`, `numpy`, `statsmodels`, `scikit-learn`, `matplotlib`, `seaborn`  
+- **R** : modélisation économétrique, tests de robustesse, visualisation  
+- **Excel** : pré-traitement de données, premières analyses descriptives  
+
+---
+
+## 📚 Référence / citation
+
+Si vous utilisez ce travail, merci de citer :
+
+> Roumbo, P. & Elabasy, A. (2025). *Optimisation des décisions d’investissement en R&D à l’ère de l’IA aux États-Unis.* Mémoire de Master, Université Sorbonne Paris Nord.
 
 ---
 
 ## 📬 Contact
-- 👤 Philippe Roumbo – [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/filou337)  
-- 👤 Amgad Elabasy  
 
-
-
+- 👤 **Philippe Roumbo** – [GitHub](https://github.com/filou337) • [LinkedIn](https://www.linkedin.com/in/philippe-roumbo)  
+- 👤 **Amgad Elabasy**
