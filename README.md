@@ -1,4 +1,4 @@
-# ai_rnd_investment_us  
+
 # 📊 Optimisation des décisions d’investissement en R&D à l’ère de l’IA – Cas des États-Unis
 
 ## 📌 Aperçu du projet
